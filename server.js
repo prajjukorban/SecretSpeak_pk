@@ -9,7 +9,8 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 // Connect to MongoDB (update your connection string)
-mongoose.connect('mongodb+srv://dbuser:ka33k9449@secretspeak.gf3w9.mongodb.net/chating', {
+// mongodb+srv://dbuser:ka33k9449@secretspeak.gf3w9.mongodb.net/chating
+mongoose.connect('mongodb+srv://prajjukorban:Ka33k9449@loginpractice.pdgsqb9.mongodb.net/?retryWrites=true&w=majority&appName=loginpractice', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
